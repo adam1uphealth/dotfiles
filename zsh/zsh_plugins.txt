@@ -1,0 +1,18 @@
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/tmux
+zsh-users/zsh-syntax-highlighting
+jeffreytse/zsh-vi-mode
+lukechilds/zsh-nvm
+zsh-users/zsh-completions
+lukechilds/zsh-better-npm-completion
+romkatv/powerlevel10k
+belak/zsh-utils path:completion
+
+/Users/adam1up/dotfiles/zsh/alias
+/Users/adam1up/dotfiles/zsh/node-helpers
+/Users/adam1up/dotfiles/zsh/pg-helpers
+/Users/adam1up/dotfiles/zsh/gh kind:path
+
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search

@@ -1,0 +1,6 @@
+if (( ! $+commands[gh] )); then
+  return;
+fi
+
+gh completion --shell zsh > _gh
+
