@@ -9,10 +9,10 @@ lukechilds/zsh-better-npm-completion
 romkatv/powerlevel10k
 belak/zsh-utils path:completion
 
-/Users/adam1up/dotfiles/zsh/alias
-/Users/adam1up/dotfiles/zsh/node-helpers
-/Users/adam1up/dotfiles/zsh/pg-helpers
-/Users/adam1up/dotfiles/zsh/gh kind:path
+/Users/adam1up/.dotfiles/zsh/alias
+/Users/adam1up/.dotfiles/zsh/node-helpers
+/Users/adam1up/.dotfiles/zsh/pg-helpers
+/Users/adam1up/.dotfiles/zsh/gh kind:path
 
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-history-substring-search

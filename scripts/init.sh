@@ -27,7 +27,6 @@ _copy_files_to_home()
 {
   for dir in $dotfileDir/*; do
     if [[ -d $dir && $(basename $dir) != scripts ]]; then
-      echo $dir;
       _dot_cp_all_files $dir $HOME;
     fi
   done
