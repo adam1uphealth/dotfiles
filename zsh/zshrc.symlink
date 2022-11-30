@@ -1,7 +1,4 @@
-# If not in tmux, start tmux.
-if [[ -z ${TMUX+X}${ZSH_SCRIPT+X}${ZSH_EXECUTION_STRING+X} ]]; then
-  exec tmux
-fi
+[[ -z ${TMUX+X}${ZSH_SCRIPT+X}${ZSH_EXECUTION_STRING+X} ]] && exec tmux
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -20,4 +17,5 @@ bindkey '^[[B' history-substring-search-down
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 
-[[ ! -f $HOME/.p10k.zsh ]] || source $HOME/.p10k.zsh
+[[ -f ~/.fzf.zsh ]] && source ~/.fzf.zsh
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
