@@ -1,4 +1,11 @@
-[[ -z ${TMUX+X}${ZSH_SCRIPT+X}${ZSH_EXECUTION_STRING+X} ]] && exec tmux
+# If tmux server is not running, start a new named session; otherwise, attach to last session
+if [[ -z ${TMUX+X}${ZSH_SCRIPT+X}${ZSH_EXECUTION_STRING+X} ]]; then
+  if ! tmux list-session &> /dev/null; then
+    tmux new -s $(gum input --placeholder="Name your tmux session");
+  else
+    tmux attach;
+  fi
+fi
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
