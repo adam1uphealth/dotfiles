@@ -1,5 +1,5 @@
 function pg-dev-connect {
-  if [[ ! $(mdfind -name 'kMDItemFSNam=="pgAdmin 4.app"') ]]; then
+  if [[ ! $(mdfind -name 'kMDItemFSName=="pgAdmin 4.app"') ]]; then
     print ':: `pgAdmin 4` is required; please install before using `pg-dev-connect`.'
     return 1;
   fi
