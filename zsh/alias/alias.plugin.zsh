@@ -3,15 +3,28 @@ function newalias {
   exec zsh;
 }
 
-# Extra aliases!
+# Basic aliases!
 
 alias zshrc="vim ~/.zshrc"
 alias zsource="exec zsh"
 alias python="python3"
 
+alias cat="bat"
+alias cleard="dirs -c"
+
+# Git aliases
+
 alias gmod='git merge origin/$(git_develop_branch)'
 alias gstb="git stash branch"
 alias grec="git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(objectname:short)%(color:reset) (%(color:blue)%(committerdate:relative)%(color:reset)) %(color:green bold)%(refname:short)%(color:reset) %(contents:subject)' --count=10"
+alias gpe="git commit --allow-empty -m 'Empty commit' && git push"
+
+function gbname {
+  name=$(git branch --show-current);
+  echo $name | pbcopy;
+  echo ":: Git branch '$name' save to clipboard\!";
+}
+
 alias newpr='gh pr create -w'
 
 # 1up aliases
