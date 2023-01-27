@@ -116,6 +116,7 @@ mkdir -p $__fish_config_dir/completions/
 	and success 'completions'
 	or abort 'completions'
 
+chmod u+x $DOTFILES_ROOT/*/install.fish
 for installer in */install.fish
 	$installer
 		and success $installer

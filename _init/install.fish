@@ -1,5 +1,4 @@
 #!/usr/bin/env fish
-echo 'Should hit here first'
 
 set -Ux EDITOR vim
 set -Ux VEDITOR code
