@@ -17,6 +17,7 @@ brew "openldap"
 brew "tmux"
 brew "python@3.10"
 brew "pcre2"
+brew "gnu-sed"
 
 # Plugins and CLIs
 brew "antidote"
