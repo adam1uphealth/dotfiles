@@ -6,3 +6,5 @@ if command -qa bat
 end
 
 alias --save ls="ls -G"
+
+set -Ux _jira_default_board "https://1uphealth.atlassian.net/jira/software/projects/AUTH/boards/45"

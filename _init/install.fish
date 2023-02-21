@@ -2,6 +2,7 @@
 
 set -Ux EDITOR vim
 set -Ux VEDITOR code
+set -Ux VISUAL code
 
 set -Ux DOTFILES ~/.dotfiles
 set -Ux WORK ~/work
