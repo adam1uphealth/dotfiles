@@ -2,7 +2,6 @@
 
 abbr -a meet "open https://meet.google.com"
 abbr -a gmail "open https://mail.google.com/mail/u/0/\#inbox"
-abbr -a jira "open https://1uphealth.atlassian.net/jira/software/projects/AUTH/boards/45"
 abbr -a cal "open https://calendar.google.com/calendar/u/0/r/week"
 abbr -a jenkins "open https://1uphealth.okta.com/home/jenkins/0oakqdhynvyyUVOZj5d6/54539"
 
