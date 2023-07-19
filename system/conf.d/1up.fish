@@ -10,6 +10,9 @@ abbr -a gimme6 "gimme-aws-creds -m -p 1up-dev6-admin"
 
 abbr -a openvpn "app openvpn && command security find-generic-password -a adam1up -s openvpn -w | pbcopy"
 
+abbr -a work "pushd $WORK"
+abbr -a dot "pushd $DOTFILES"
+
 # Completions
 complete -c pgdev -f
 complete -c pgdev -a connect-only -d "Connect via ssh to '1uphealthdev' PG database"
