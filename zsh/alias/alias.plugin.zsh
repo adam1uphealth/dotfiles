@@ -41,6 +41,5 @@ alias authintegrations="nvmo ~/work/auth-integrations/1up-auth-integration-templ
 
 alias meet="open 'https://meet.google.com'"
 alias gmail="open https://mail.google.com/mail/u/0/\#inbox"
-alias jira="open 'https://1uphealth.atlassian.net/jira/software/projects/AUTH/boards/45'"
 alias weather="curl wttr.in/philadelphia\?1o"
 alias cal="open https://calendar.google.com/calendar/u/0/r/week"

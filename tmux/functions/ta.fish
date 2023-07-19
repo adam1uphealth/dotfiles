@@ -1,6 +1,6 @@
 function ta -d "smarter tmux attach"
   test $TMUX
-      and echo 'tms should not be used within a tmux session!'
+      and echo 'ta should not be used within a tmux session!'
       and exit 1
 
   set --local session $argv[1]

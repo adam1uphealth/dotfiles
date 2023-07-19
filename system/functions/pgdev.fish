@@ -4,7 +4,7 @@ function pgdev -d "Utility for connecting to PostgresQL DB"
         return 1
     end
 
-    set -l cmd $argv[1] 
+    set -l cmd $argv[1]
 
     switch $cmd
         case "" -h --help
