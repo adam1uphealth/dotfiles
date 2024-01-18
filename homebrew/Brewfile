@@ -31,6 +31,7 @@ cask "font-jetbrains-mono-nerd-font"
 cask "rectangle"
 cask "visual-studio-code"
 cask "docker"
+cask "obsidian"
 
 # 1up-specific reqs
 brew "gimme-aws-creds"
@@ -44,3 +45,6 @@ cask "openvpn-connect"
 brew "tfenv"
 brew "kubectl"
 brew "awscli"
+brew "openjdk@17"
+brew "gradle"
+
