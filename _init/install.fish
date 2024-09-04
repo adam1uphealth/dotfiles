@@ -1,8 +1,8 @@
 #!/usr/bin/env fish
 
-set -Ux EDITOR vim
-set -Ux VEDITOR code
-set -Ux VISUAL code
+set -Ux EDITOR nvim
+set -Ux VEDITOR codium
+set -Ux VISUAL codium
 
 set -Ux DOTFILES ~/.dotfiles
 set -Ux WORK ~/work

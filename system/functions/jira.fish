@@ -2,8 +2,8 @@ function jira --description 'Utility for launching Jira in browser'
     argparse h/help -- $argv
     if test (count $_flag_help) -ge 1
         echo "Usage:     " (set_color -o blue) jira (set_color normal) "               Open default board"
-        echo "           " (set_color -o blue) "jira ." (set_color normal) "             Open default project backlog"
         echo "           " (set_color -o blue) "jira backlog" (set_color normal) "       Open default project backlog"
+        echo "           " (set_color -o blue) "jira ." (set_color normal) "             Open issue corresponding to current git branch"
         echo "           " (set_color -o blue) "jira iss-420" (set_color normal) "       Open specific issue (case-insensitive)"
         echo "           " (set_color -o blue) "jira iss 420" (set_color normal) "       Open specific issue (case-insensitive)"
         echo "Variables: " (set_color -o green) _jira_default_board (set_color normal) "URL of default Jira board"

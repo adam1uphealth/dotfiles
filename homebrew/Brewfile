@@ -1,9 +1,6 @@
 # Taps for typical homebrew setup
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
-tap "martido/homebrew-graph"
 
 # Basic terminal tools
 brew "fish"
@@ -14,14 +11,12 @@ brew "gum"
 brew "fd"
 brew "fzf"
 brew "openldap"
-brew "tmux"
-brew "python@3.10"
 brew "pcre2"
 brew "gnu-sed"
 brew "neovim"
+brew "ripgrep"
 
 # Plugins and CLIs
-brew "antidote"
 brew "gh"
 
 # Fonts
@@ -29,22 +24,14 @@ cask "font-jetbrains-mono-nerd-font"
 
 # Basic apps
 cask "rectangle"
-cask "visual-studio-code"
+cask "vscodium"
+cask "firefox"
 cask "docker"
-cask "obsidian"
+# cask "obsidian"
 
 # 1up-specific reqs
 brew "gimme-aws-creds"
 tap "snyk/tap"
 brew "snyk/tap/snyk"
-tap "authzed/tap"
-brew "authzed/tap/zed"
-cask "pgadmin4"
-cask "slack"
 cask "openvpn-connect"
-brew "tfenv"
-brew "kubectl"
-brew "awscli"
-brew "openjdk@17"
-brew "gradle"
 
