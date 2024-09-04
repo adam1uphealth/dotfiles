@@ -27,6 +27,7 @@ cask "rectangle"
 cask "vscodium"
 cask "firefox"
 cask "docker"
+cask "pgadmin4"
 # cask "obsidian"
 
 # 1up-specific reqs
